@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Plannit</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="description" content="Plannit - La piattaforma che semplifica l'organizzazione di eventi come compleanni e feste">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="page">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap rd-navbar-absolute">
+          <nav class="rd-navbar rd-navbar-thin" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-fixed" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <button class="rd-navbar-collapse-toggle rd-navbar-fixed-element-2" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1, #rd-navbar-hidden-1"><span></span></button>
+                  <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="../index.html"><img src="../images/logo-default-398x45.png" alt="" width="199" height="22"/></a>
+                  <div class="rd-navbar-block" id="rd-navbar-hidden-1">
+                    <div class="rd-navbar-collapse">
+                      <ul class="list-inline-bordered rd-navbar-list">
+                        <!--<li><span class="icon mdi mdi-comment-text-outline"></span><a href="../contacts.html">CONTATTACI</a></li>
+                        <li><span class="icon mdi mdi-cellphone-android"></span><a href="tel:#">+39 333 333 3333</a></li>-->
+                        <a class="button button-primary button-winona wow fadeIn" data-wow-delay=".2s" href="./login.html">Accedi</a>
+                        <a class="button button-dark-outline button-winona wow fadeIn" data-wow-delay=".2s" href="./registrazione.html">Registrati</a>
+                      </ul>
+                    </div>
+                    <button class="rd-navbar-search-toggle" data-rd-navbar-toggle="#rd-navbar-search-1"><span></span></button>
+                  </div>
+                </div>
+                <!-- RD Navbar Search-->
+                <div class="rd-navbar-search" id="rd-navbar-search-1">
+                  <form class="rd-search" action="#" data-search-live="rd-search-results-live-1" method="GET">
+                    <div class="form-wrap">
+                      <label class="form-label" for="rd-navbar-search-form-input-1">Cerca qui...</label>
+                      <input class="form-input rd-navbar-search-form-input" id="rd-navbar-search-form-input-1" type="text" name="s" autocomplete="off">
+                      <div class="rd-search-results-live" id="rd-search-results-live-1"></div>
+                    </div>
+                    <button class="rd-search-form-submit fa-search" type="submit"></button>
+                  </form>
+                </div>
+                <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
+                  <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="../index.html"><img src="../images/logo-default-398x45.png" alt="" width="199" height="22"/></a>
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="../our-founder.html">I Founder</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="../typography.html">About</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="../contacts.html">Contatti</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- FScreen-->
+      <section class="section section-halfscreen bg-image fadeIn" data-wow-delay=".2s" style="background-image: url(../images/header-bg.png);">
+        <div class="section-halfscreen-inner mt-5">
+          <!--<div class="section-halfscreen-image wow fadeIn" style="background-image: url(images/screens-1-960x752.png);"></div>-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-5">
+                <div class="section-halfscreen-content">
+                  <div class="wow-outer heading-3">
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s"><p class="montserrat-title">Organizza senza <br>stress con <span class="gradient-text">Plannit!</span></p></h2>
+                  </div>
+                  <div class="wow-outer p custom-article montserrat-sub">
+                    <p class="wow fadeInDown" data-wow-delay=".2s">Credi che organizzare un evento comporti perdita di soldi e tempo?</p>
+                    <p class="wow fadeInDown" data-wow-delay=".2s">Scopri come <i>plannit</i> può <b>semplificare</b> tutto in <b>pochi click!</b> </p>
+                  </div><a class="button button-primary button-winona wow fadeIn" data-wow-delay=".2s" href="#">Scopri di più</a><br><br>
+                  <div class="container row">
+                    <div class="wow fadeIn" data-wow-delay=".5s"> <a href="#"><img src="../images/Apple.png" alt="AppStore" width="85%"></a></div>
+                    <div class="wow fadeIn" data-wow-delay=".5s"> <a href="#"><img src="../images/Google.png" alt="PlayStore"  width="85%"></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="tabs-horizontal"></div>
+      <!-- Small Features-->
+      <section class="section section-lg bg-gray-100">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Minimal-->
+              <article class="box-minimal">
+                <div class="box-minimal-icon linearicons-calendar-check wow fadeIn"></div>
+                <div class="box-minimal-main wow-outer">
+                  <h4 class="box-minimal-title wow slideInDown">Organizzazione Semplificata</h4>
+                  <p class="wow fadeInUpSmall">Centralizza e gestisci tutti gli aspetti del tuo evento in un unico luogo senza perdere tempo tra diverse piattaforme.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Minimal-->
+              <article class="box-minimal">
+                <div class="box-minimal-icon linearicons-star wow fadeIn" data-wow-delay=".1s"></div>
+                <div class="box-minimal-main wow-outer">
+                  <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".1s">Fornitori Selezionati</h4>
+                  <p class="wow fadeInUpSmall" data-wow-delay=".1s">Accedi a una rete di fornitori di qualità per catering, location, fotografi e decorazioni con recensioni verificate.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Minimal-->
+              <article class="box-minimal">
+                <div class="box-minimal-icon linearicons-wallet wow fadeIn" data-wow-delay=".2s"></div>
+                <div class="box-minimal-main wow-outer">
+                  <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".2s">Gestione Budget</h4>
+                  <p class="wow fadeInUpSmall" data-wow-delay=".2s">Tieni sotto controllo le spese con il nostro sistema di gestione del budget integrato che ti aiuta a rispettare i tuoi limiti di spesa.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Advantages and Achievements-->
+      <section class="section section-lg text-center">
+        <div class="container">
+          <h3 class="wow-outer"><span class="wow slideInUp">I Nostri Risultati</span></h3>
+          <p class="wow-outer"><span class="text-width-1 wow slideInDown">Pianificare eventi non è mai stato così semplice. Ecco alcuni numeri che dimostrano l'efficacia della nostra piattaforma.</span></p>
+          <div class="row row-50">
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-bubbles"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">95</div><span class="value">%</span>
+                </div>
+                <h5 class="counter-minimal-title">Clienti Soddisfatti</h5>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-calendar-full"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">500</div><span class="value">+</span>
+                </div>
+                <h5 class="counter-minimal-title">Eventi Organizzati</h5>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-users2"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">150</div><span class="value">+</span>
+                </div>
+                <h5 class="counter-minimal-title">Fornitori Partner</h5>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-clock3"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">40</div><span class="value">%</span>
+                </div>
+                <h5 class="counter-minimal-title">Tempo Risparmiato</h5>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA Thin-->
+      <section class="section section-xs bg-primary-darken text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-10 col-md-12">
+              <div class="box-cta-thin">
+                <h4 class="title wow-outer"><span class="wow slideInRight">Inizia subito a organizzare il tuo evento</span></h4>
+                <div class="wow-outer button-outer"><a class="button button-white-outline button-winona wow slideInLeft" href="contacts.html">Registrati Gratis</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services-->
+      <section class="section section-lg bg-gray-100 text-center">
+        <div class="container">
+          <h3 class="wow-outer"><span class="wow slideInUp">La Nostra Offerta</span></h3>
+          <div class="row row-30">
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Creative-->
+              <article class="box-creative wow slideInDown">
+                <div class="box-creative-icon linearicons-magnifier"></div>
+                <h4 class="box-creative-title"><a href="#">Ricerca Fornitori</a></h4>
+                <p>Trova rapidamente i migliori fornitori per il tuo evento filtrando per categoria, prezzo, disponibilità e valutazioni.</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Creative-->
+              <article class="box-creative wow slideInDown" data-wow-delay=".05s">
+                <div class="box-creative-icon linearicons-map2"></div>
+                <h4 class="box-creative-title"><a href="#">Pianificazione Completa</a></h4>
+                <p>Gestisci invitati, location, menu, decorazioni e timeline dell'evento in un'unica interfaccia intuitiva.</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Creative-->
+              <article class="box-creative wow slideInDown" data-wow-delay=".1s">
+                <div class="box-creative-icon linearicons-credit-card"></div>
+                <h4 class="box-creative-title"><a href="#">Pagamenti Sicuri</a></h4>
+                <p>Effettua pagamenti sicuri direttamente dalla piattaforma e monitora tutte le spese in tempo reale.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Recent News-->
+      <section class="section section-lg text-center">
+        <div class="container">
+          <h3 class="wow-outer"><span class="wow slideInDown">Parlano di noi...</span></h3>
+          <div class="row row-30">
+            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+                <!-- Post Tiny-->
+                <article class="post-tiny wow fadeSlideInDown"><a class="post-tiny-media" href="https://www.telebari.it/attualita/204243-bari-ecco-plannit-startup-dei-18enni-claudio-e-nicola-organizzare-gli-eventi-sara-piu-semplice-video.html" target="_blank"><img src="images/telebari.png" alt="" width="270" height="184"/></a>
+                    <h5 class="post-tiny-title"><a href="https://www.telebari.it/attualita/204243-bari-ecco-plannit-startup-dei-18enni-claudio-e-nicola-organizzare-gli-eventi-sara-piu-semplice-video.html" target="_blank">Telebari</a></h5>
+                    <p class="post-tiny-title">Bari, ecco Plannit: startup dei 18enni Claudio e Nicola. “Organizzare gli eventi sarà più semplice”</p>
+                    <time class="post-tiny-time" datetime="2025">2 Aprile 2025</time>
+                  </article>
+                
+              </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+              <!-- Post Tiny-->
+              <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".1s"><a class="post-tiny-media" href="https://sudhitech.it/blog-detail/post/266074/premiate-a-catania-le-5-startup-vincitrici-del-programma-di-develhope-e-amazon#:~:text=Plannit" target="_blank"><img src="images/blog-layouts-3-270x184.jpg" alt="" width="270" height="184"/></a>
+                <h5 class="post-tiny-title"><a href="https://sudhitech.it/blog-detail/post/266074/premiate-a-catania-le-5-startup-vincitrici-del-programma-di-develhope-e-amazon#:~:text=Plannit" target="_blank">SudHiTech</a></h5>
+                <p class="post-tiny-title">Premiate a Catania le 5 startup vincitrici del programma di Develhope e Amazon</p>
+                <time class="post-tiny-time" datetime="2025">23 Marzo 2025</time>
+              </article>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+              <!-- Post Tiny-->
+              <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".05s"><a class="post-tiny-media" href="https://www.cataniatoday.it/economia/startup-premiazione-aziende-giovani.html#:~:text=Plannit" target="_blank"><img src="images/cataniatoday.png" alt="" width="270" height="184"/></a>
+                <h5 class="post-tiny-title"><a href="https://www.cataniatoday.it/economia/startup-premiazione-aziende-giovani.html#:~:text=Plannit" target="_blank">Catania Today</a></h5>
+                <p class="post-tiny-title">Giovani imprenditori, 5 startup vincono il programma di incubazione di Develhope e Amazon</p>
+                <time class="post-tiny-time" datetime="2025">22 Marzo 2025</time>
+              </article>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+              <!-- Post Tiny-->
+              <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".15s"><a class="post-tiny-media" href="#"><img src="images/blog-layouts-4-270x184.jpg" alt="" width="270" height="184"/></a>
+                <h5 class="post-tiny-title"><a href="#">Checklist per Feste di Fine Anno</a></h5>
+                <time class="post-tiny-time" datetime="2023">3 settimane fa</time>
+              </article>
+            </div>
+          </div>
+          <div class="wow-outer button-outer offset-top-2"><a class="button button-dark-outline button-winona wow slideInUp" href="#">Vedi tutti gli articoli</a></div>
+        </div>
+      </section>
+      <!-- A Few Words About Us-->
+      <section class="section bg-gray-100">
+        <div class="range justify-content-xl-between">
+          <div class="cell-lg-6 cell-xl-5 align-self-center container">
+            <div class="row">
+              <div class="col-md-10 cell-inner">
+                <div class="section-lg inset-right-2">
+                  <h3 class="wow-outer"><span class="wow slideInDown">Chi Siamo</span></h3>
+                  <p class="wow fadeIn">Plannit è una startup innovativa creata da due studenti che hanno voluto risolvere un problema comune: la complessità nell'organizzazione di eventi. La nostra piattaforma centralizza tutti i servizi necessari in un unico posto.</p>
+                  <div class="progress-linear-outer wow-outer">
+                          <!-- Linear progress bar-->
+                          <article class="progress-linear wow slideInDown" data-wow-delay=".05s">
+                            <div class="progress-header">
+                              <p>Facilità d'uso</p><span class="progress-value">98</span>
+                            </div>
+                            <div class="progress-bar-linear-wrap">
+                              <div class="progress-bar-linear"></div>
+                            </div>
+                          </article>
+                  </div>
+                  <div class="progress-linear-outer wow-outer">
+                          <!-- Linear progress bar-->
+                          <article class="progress-linear progress-linear-color-1 wow slideInDown" data-wow-delay=".1s">
+                            <div class="progress-header">
+                              <p>Risparmio di tempo</p><span class="progress-value">90</span>
+                            </div>
+                            <div class="progress-bar-linear-wrap">
+                              <div class="progress-bar-linear"></div>
+                            </div>
+                          </article>
+                  </div>
+                  <div class="progress-linear-outer wow-outer">
+                          <!-- Linear progress bar-->
+                          <article class="progress-linear progress-linear-color-2 wow slideInDown" data-wow-delay=".15s">
+                            <div class="progress-header">
+                              <p>Qualità dei fornitori</p><span class="progress-value">95</span>
+                            </div>
+                            <div class="progress-bar-linear-wrap">
+                              <div class="progress-bar-linear"></div>
+                            </div>
+                          </article>
+                  </div>
+                  <div class="progress-linear-outer wow-outer">
+                          <!-- Linear progress bar-->
+                          <article class="progress-linear progress-linear-color-3 wow slideInDown" data-wow-delay=".2s">
+                            <div class="progress-header">
+                              <p>Soddisfazione clienti</p><span class="progress-value">97</span>
+                            </div>
+                            <div class="progress-bar-linear-wrap">
+                              <div class="progress-bar-linear"></div>
+                            </div>
+                          </article>
+                  </div>
+                  <div class="wow-outer button-outer"><a class="button button-primary button-winona wow slideInUp" href="about-me.html">Scopri di più</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell-lg-6 height-fill">
+            <div class="figure-card">
+              <div class="figure-card-sizer"></div><img src="images/screens-2-960x762.jpg" alt="" width="960" height="762"/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partners-->
+      <section class="section section-sm text-center">
+        <div class="container">
+          <h3 class="wow-outer mb-5"><span class="wow slideInDown">I Nostri Partner</span></h3>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel owl-carousel-1" data-items="2" data-sm-items="3" data-md-items="4" data-lg-items="5" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
+            <div class="item wow-outer">
+              <div class="wow slideInLeft"><a class="link-image" href="#"><img src="images/logo-john-brad-135x87.png" alt="" width="135" height="87"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".05s"><a class="link-image" href="#"><img src="images/logo-the-oldbrand-134x104.png" alt="" width="134" height="104"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".1s"><a class="link-image" href="#"><img src="images/logo-havana-cabana-132x87.png" alt="" width="132" height="87"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".15s"><a class="link-image" href="#"><img src="images/logo-brownie-143x85.png" alt="" width="143" height="85"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="#"><img src="images/logo-hillplan-111x85.png" alt="" width="111" height="85"/></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <footer class="section footer-minimal bg-primary-darken">
+        <div class="container"> 
+          <div class="footer-minimal-inner"><a class="brand" href="index.html"><img src="images/logo-light-398x45.png" alt="" width="199" height="22"/></a>
+            <!-- Rights-->
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. Plannit - Tutti i diritti riservati.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="preloader"> 
+      <div class="preloader-logo"><img src="images/logo-default-398x45.png" alt="" width="199" height="22"/>
+      </div>
+      <div class="preloader-body">
+        <div id="loadingProgressG">
+          <div class="loadingProgressG" id="loadingProgressG_1"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
